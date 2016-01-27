@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-01-18T16:03:20.500+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/capstone/templates/page-home"
+        jcr:description="delivering the highest quality work for a reasonable price"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SERVICES"
+        sling:resourceType="capstone/components/structure/homepage">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/logo"/>
+        <langselector
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/langselector"/>
+        <searchbox
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/searchbox"/>
+        <navigation
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/navigation"/>
+        <carousel
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/carousel"/>
+        <textparcol
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/textparcol"/>
+        <buttonparcol
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/buttonparcol"/>
+        <socialparcol
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/socialparcol"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/copyright"/>
+        <footerimage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/footerimage"/>
+    </jcr:content>
+</jcr:root>

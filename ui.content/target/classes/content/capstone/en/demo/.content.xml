@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:lastModified="{Date}2016-01-21T12:00:42.470+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/capstone/templates/page-home"
+        jcr:description="CQ5 - Global Integration Team"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Demo"
+        sling:resourceType="capstone/components/structure/homepage">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/logo"/>
+        <langselector
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/langselector"/>
+        <searchbox
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/searchbox"/>
+        <navigation
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/navigation"/>
+        <carousel
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/carousel"/>
+        <textparcol
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/textparcol"/>
+        <buttonparcol
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/buttonparcol"/>
+        <socialparcol
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/content/socialparcol"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/copyright"/>
+        <footerimage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/footerimage"/>
+        <carousalpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carousel
+                jcr:created="{Date}2016-01-18T14:07:06.675+05:30"
+                jcr:createdBy="admin"
+                jcr:description="Get additional SAVINGS when registering in our classes delivered at our offices in Guatemala City, Guatemala.&#xa;&#xa;We are always open to deliver: CQ Author, CQ Developer, CQ System Administration and CQ Advanced Workshops.  Contact us for availability!"
+                jcr:lastModified="{Date}2016-01-18T14:08:21.776+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:subtitle="Adobe® Authorized Training Center in Guatemala City"
+                jcr:title="NOW OFFERING: CQ5.5 classes in Latin America"
+                sling:resourceType="capstone/components/content/carousel"
+                imageRotate="0">
+                <file/>
+            </carousel>
+            <carousel_794742595
+                jcr:created="{Date}2016-01-18T14:10:30.524+05:30"
+                jcr:createdBy="admin"
+                jcr:description="Our global experience from leading major implementation projects to delivering training in multiple languages sets us apart from the competition"
+                jcr:lastModified="{Date}2016-01-18T14:11:13.428+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:subtitle="Adobe® Solution Partner, Certified Trainers &amp; Authorized Training Center"
+                jcr:title="Delivering CQ Implementations since 2003"
+                sling:resourceType="capstone/components/content/carousel"
+                imageRotate="0">
+                <file/>
+            </carousel_794742595>
+        </carousalpar>
+        <textcolpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <textparcol
+                jcr:created="{Date}2016-01-18T14:08:59.049+05:30"
+                jcr:createdBy="admin"
+                jcr:description="XumaK is one of the few truly experienced teams in the industry of Java Content Repository (JCR) based systems (AKA: jsr 170/283). We strive in studying the underlying technologies in order to assist our clients with their CQ5 Web Experience Management (WEM) implementation. As experience business advisors and systems integrators, we provide you with the right advice and solutions with YOUR best interest in mind."
+                jcr:lastModified="{Date}2016-01-19T12:20:33.414+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:subtitle="Global Integration Team - Professional Services"
+                jcr:title="XumaK"
+                sling:resourceType="capstone/components/content/textparcol"
+                imageRotate="0"
+                linkURL="/content/capstone/fr">
+                <file/>
+            </textparcol>
+        </textcolpar>
+        <buttontextpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <buttonparcol
+                jcr:created="{Date}2016-01-18T14:10:19.684+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-18T14:10:19.684+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/content/buttonparcol"/>
+        </buttontextpar>
+        <socialtextpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <socialparcol
+                jcr:created="{Date}2016-01-18T14:10:25.290+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-18T14:10:25.290+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/content/socialparcol"/>
+        </socialtextpar>
+        <carousalcontainer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carouselcontainer
+                jcr:created="{Date}2016-01-21T11:59:12.250+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-21T11:59:12.250+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/content/carouselcontainer">
+                <carousalparsys
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <carousel
+                        jcr:created="{Date}2016-01-21T11:59:16.042+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="Primary description about the site"
+                        jcr:lastModified="{Date}2016-01-21T12:00:10.470+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:subtitle="Basic topics"
+                        jcr:title="CQ implementations"
+                        sling:resourceType="capstone/components/content/carousel"
+                        imageRotate="0">
+                        <file/>
+                    </carousel>
+                    <carousel_1183636679
+                        jcr:created="{Date}2016-01-21T12:00:17.572+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="New Data"
+                        jcr:lastModified="{Date}2016-01-21T12:00:42.463+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:subtitle="Basic"
+                        jcr:title="Hello"
+                        sling:resourceType="capstone/components/content/carousel"
+                        imageRotate="0">
+                        <file/>
+                    </carousel_1183636679>
+                </carousalparsys>
+            </carouselcontainer>
+        </carousalcontainer>
+    </jcr:content>
+    <services/>
+    <services1/>
+    <services11/>
+    <form-a/>
+</jcr:root>

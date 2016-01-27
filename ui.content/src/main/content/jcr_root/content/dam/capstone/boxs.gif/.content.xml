@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2016-01-12T16:13:54.122+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}6"
+            dam:extracted="{Date}2016-01-12T16:13:53.054+05:30"
+            dam:Fileformat="GIF"
+            dam:MIMEtype="image/gif"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}0.1666666716337204"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}0.1666666716337204"
+            dam:Progressive="no"
+            dam:sha1="b9ab00516fdc6308516f1b8229abf77d8650b801"
+            dam:size="{Long}1388"
+            dc:format="image/gif"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}12"
+            tiff:ImageWidth="{Long}12"
+            xmp:CreatorTool="Adobe Photoshop CS5 Windows"
+            xmpMM:DocumentID="xmp.did:EF8E1E157DD211E09F46979EF3FDC677"
+            xmpMM:InstanceID="xmp.iid:EF8E1E147DD211E09F46979EF3FDC677">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:EF8E1E137DD211E09F46979EF3FDC677"
+                stRef:instanceID="xmp.iid:EF8E1E127DD211E09F46979EF3FDC677"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Feedback form template"
+    jcr:primaryType="cq:Template"
+    jcr:title="Capstone Feedback form template"
+    allowedPaths="[/content/forms/af(/.*)?,/content/capstone(/.*)?]">
+    <jcr:content
+        cq:designPath="/etc/designs/feedbackform"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="capstone/components/adaptiveforms/forma"
+        guideComponentType="fd/af/templates">
+        <guideformtitle
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideformtitle"
+            text="&lt;h1>TEST FORM TITLE&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sub>(Form Subtitle)&lt;/sub>&lt;/h1>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Form description&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <guideContainer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/af/components/guidesubmittype/store"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/panel/wizard"
+                    guideNavigatorTab="wizard-tab"
+                    toolbarPosition="Top"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <guidepanel_879805661044659
+                        jcr:description="Section One"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section One"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="GeneralInformation">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Label 1"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                longDescription="&lt;p>This is a very long description.&lt;/p>&#xa;"
+                                multiLine="true"
+                                name="textbox"
+                                shortDescription="&lt;p>short description&lt;/p>&#xa;"/>
+                            <guidenumericbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Label 2"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox"/>
+                            <guidetextbox_0
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Label 3"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_0"/>
+                        </items>
+                    </guidepanel_879805661044659>
+                    <guidepanel_936167221225552
+                        jcr:description="Section Two"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section Two"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="panel2">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <guidecheckbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Multiple choice Label"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                guideComponentType="true"
+                                guideNodeClass="guideCheckBox"
+                                name="checkbox"
+                                options="[0=Choice 1,1=Choice 2,2=Choice 3]"/>
+                        </items>
+                    </guidepanel_936167221225552>
+                    <panel1392199234944
+                        jcr:description="Section Three"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section Three"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel3">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>Description of the section&lt;/p>&#xa;"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw"/>
+                            <guidescribble
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Signature"
+                                sling:resourceType="fd/af/components/guidescribble"
+                                aspectRatio="6.888"
+                                guideComponentType="true"
+                                guideNodeClass="guideScribble"
+                                name="scribble"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                    </panel1392199234944>
+                </items>
+                <toolbar
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css="upperToolbar"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items jcr:primaryType="nt:unstructured">
+                        <previtemnav
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Previous"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/previtemnav"
+                            assistPriority="custom"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'prevItem')"
+                            css="previousButton"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="previtemnav"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasPrevItem"
+                            type="movePrev"/>
+                        <nextitemnav
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Next"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/nextitemnav"
+                            assistPriority="custom"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'nextItem',true)"
+                            css="nextButton"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="nextitemnav"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasNextItem"
+                            type="moveNext"/>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                </toolbar>
+            </rootPanel>
+            <toolbar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/toolbar"
+                css="bottomToolbar"
+                guideComponentType="true"
+                guideNodeClass="guideToolbar"
+                name="toolbar">
+                <items jcr:primaryType="nt:unstructured">
+                    <reset
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Reset"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/reset"
+                        buttonType="button-default"
+                        clickExp="window.guideBridge.reset()"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="reset"
+                        type="reset"/>
+                    <saveGuideDraft
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Save"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                        buttonType="button-default"
+                        clickExp="handleDraftSave(this)"
+                        guideNodeClass="guideButton"
+                        name="saveGuideDraft"
+                        type="save"/>
+                    <submit
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Submit"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/submit"
+                        buttonType="button-default"
+                        clickExp="window.guideBridge.submit()"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="submit"
+                        type="submit"/>
+                </items>
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/toolbar/mobileFixedToolbarLayout"/>
+            </toolbar>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

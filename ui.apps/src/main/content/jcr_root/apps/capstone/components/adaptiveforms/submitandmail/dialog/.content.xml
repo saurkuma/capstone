@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:WidgetCollection"
+    jcr:title="Store content action"
+    usesWorkFlow="true"
+    xtype="dialog">
+    <from/>
+    <mailTo/>
+    <subject
+        jcr:primaryType="nt:unstructured"
+        path="/libs/foundation/components/form/actions/mail/dialog/subject.infinity.json"
+        xtype="cqinclude"/>
+    <template/>
+    <templatePath/>
+    <attach/>
+    <cc/>
+    <bcc/>
+</jcr:root>

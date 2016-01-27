@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/feedbackform"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2016-01-21T15:32:49.437+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/capstone/templates/feedbackform"
+        jcr:description="Customer Feedback Form"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FORM A"
+        sling:resourceType="capstone/components/adaptiveforms/forma"
+        guideComponentType="fd/af/templates">
+        <guideformtitle
+            jcr:lastModified="{Date}2016-01-21T12:34:00.371+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideformtitle"
+            text="&lt;h1>Customer Feedback Form &amp;nbsp; &amp;nbsp;&lt;sub>(Form A)&lt;/sub>&lt;/h1>&#xa;"
+            textIsRich="true"/>
+        <guideContainer
+            jcr:lastModified="{Date}2016-01-21T15:32:49.420+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainerWrapper"
+            actionType="capstone/components/adaptiveforms/submitandmail"
+            from="saurkuma@adobe.com"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            mailto="[saurkuma@adobe.com]"
+            name="guide1"
+            storePath="/content/usergenerated/content/forms/af/capstone/formA/*"
+            subject="Mail from CRX component"
+            template="Hello">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/panel/wizard"
+                    enableLayoutOptimization="{Boolean}true"
+                    guideNavigatorTab="wizard-tab"
+                    toolbarPosition="Top"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <guidepanel_879805661044659
+                        jcr:description="Section One"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section One"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="GeneralInformation">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Label 1"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                longDescription="&lt;p>This is a very long description.&lt;/p>&#xa;"
+                                name="textbox"
+                                shortDescription="&lt;p>short description&lt;/p>&#xa;"/>
+                            <guidenumericbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Label 2"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox"/>
+                            <guidetextbox_0
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Label 3"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_0"/>
+                            <guidetextbox_1581226419
+                                jcr:created="{Date}2016-01-21T13:01:10.037+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T13:01:49.538+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Customer Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideNodeClass="guideTextBox"
+                                name="Name"/>
+                            <guidedatepicker
+                                jcr:created="{Date}2016-01-21T13:01:58.254+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T13:12:05.329+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Date of Birth"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                assistPriority="custom"
+                                displayIsSameAsValidate="true"
+                                displayPictureClause="date{DD MMMM, YYYY}"
+                                guideNodeClass="guideDatePicker"
+                                inlineStyles="[Widget{background-color:turquoise},Caption{font-weight:bold}]"
+                                isEditSameAsDisplayPattern="true"
+                                longDescription="&lt;p>Please enter date of birth of customer&lt;/p>&#xa;"
+                                mandatory="true"
+                                name="dob"
+                                shortDescription="&lt;p>DOB&lt;/p>&#xa;"
+                                validatePictureClauseMessage="Not in correct format"/>
+                        </items>
+                    </guidepanel_879805661044659>
+                    <guidepanel_936167221225552
+                        jcr:description="Section Two"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section Two"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="panel2">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <guidecheckbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Multiple choice Label"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                guideComponentType="true"
+                                guideNodeClass="guideCheckBox"
+                                name="checkbox"
+                                options="[0=Choice 1,1=Choice 2,2=Choice 3]"/>
+                        </items>
+                    </guidepanel_936167221225552>
+                    <panel1392199234944
+                        jcr:description="Section Three"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section Three"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel3">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>Description of the section&lt;/p>&#xa;"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw"/>
+                            <guidescribble
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Signature"
+                                sling:resourceType="fd/af/components/guidescribble"
+                                aspectRatio="6.888"
+                                guideComponentType="true"
+                                guideNodeClass="guideScribble"
+                                name="scribble"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                    </panel1392199234944>
+                </items>
+                <toolbar
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css="upperToolbar"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items jcr:primaryType="nt:unstructured">
+                        <previtemnav
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Previous"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/previtemnav"
+                            assistPriority="custom"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'prevItem')"
+                            css="previousButton"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="previtemnav"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasPrevItem"
+                            type="movePrev"/>
+                        <nextitemnav
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Next"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/nextitemnav"
+                            assistPriority="custom"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'nextItem',true)"
+                            css="nextButton"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="nextitemnav"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasNextItem"
+                            type="moveNext"/>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                </toolbar>
+            </rootPanel>
+            <toolbar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/toolbar"
+                css="bottomToolbar"
+                guideComponentType="true"
+                guideNodeClass="guideToolbar"
+                name="toolbar">
+                <items jcr:primaryType="nt:unstructured">
+                    <reset
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Reset"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/reset"
+                        buttonType="button-default"
+                        clickExp="window.guideBridge.reset()"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="reset"
+                        type="reset"/>
+                    <saveGuideDraft
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Save"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                        buttonType="button-default"
+                        clickExp="handleDraftSave(this)"
+                        guideNodeClass="guideButton"
+                        name="saveGuideDraft"
+                        type="save"/>
+                    <submit
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Submit"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/submit"
+                        buttonType="button-default"
+                        clickExp="window.guideBridge.submit()"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="submit"
+                        type="submit"/>
+                </items>
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/toolbar/mobileFixedToolbarLayout"/>
+            </toolbar>
+            <submissionMetaInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

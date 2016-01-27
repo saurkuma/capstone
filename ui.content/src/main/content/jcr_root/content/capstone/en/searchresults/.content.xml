@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-01-18T18:28:47.134+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/capstone/templates/page-search"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="searchresults"
+        sling:resourceType="capstone/components/structure/searchpage">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/logo"/>
+        <langselector
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/langselector"/>
+        <navigation
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/navigation"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/copyright"/>
+        <footerimage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/structure/footerimage"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2016-01-12T16:13:55.369+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-01-12T16:13:54.918+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="bcfca71f540ff20fe02f600f24239f5ea02dcd52"
+            dam:size="{Long}1427"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1174"
+            tiff:ImageWidth="{Long}4"
+            xmp:CreatorTool="Adobe Photoshop CS5 Windows"
+            xmpMM:DocumentID="xmp.did:5D4527317EF211E0921AAF468286978B"
+            xmpMM:InstanceID="xmp.iid:5D4527307EF211E0921AAF468286978B">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:E2DEB6187EC111E09197ECA0F9E0C2B0"
+                stRef:instanceID="xmp.iid:E2DEB6177EC111E09197ECA0F9E0C2B0"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

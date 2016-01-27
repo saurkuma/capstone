@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-01-19T16:26:02.023+05:30"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Capstone Site Design"
+        sling:resourceType="wcm/core/components/designer">
+        <page jcr:primaryType="nt:unstructured">
+            <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:Capstone Components]">
+                <colctrl
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/content/colctrl"
+                    layouts="2;cq-colctrl-lt0&#x9;2 Columns (50%, 50%)"/>
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <image
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="capstone/components/content/image"
+                            type="Images"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+            </par>
+            <logo
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/structure/logo"
+                absParent="2">
+                <image/>
+            </logo>
+        </page>
+        <homepage jcr:primaryType="nt:unstructured">
+            <logo
+                jcr:lastModified="{Date}2016-01-19T12:55:11.953+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/structure/logo">
+                <image/>
+            </logo>
+            <carousalpar
+                jcr:lastModified="{Date}2016-01-19T15:53:58.341+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/capstone/components/content/carouselcontainer,/libs/cq/reporting/components/auditreport/pagecol]">
+                <section jcr:primaryType="nt:unstructured"/>
+                <carouselcontainer jcr:primaryType="nt:unstructured">
+                    <carousalparsys
+                        jcr:lastModified="{Date}2016-01-19T15:55:22.929+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/parsys"
+                        components="/apps/capstone/components/content/carousel">
+                        <section jcr:primaryType="nt:unstructured"/>
+                    </carousalparsys>
+                </carouselcontainer>
+            </carousalpar>
+            <textcolpar
+                jcr:lastModified="{Date}2016-01-14T19:32:27.458+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:Capstone">
+                <section jcr:primaryType="nt:unstructured"/>
+                <textparcol
+                    jcr:lastModified="{Date}2016-01-14T17:57:36.302+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/content/textparcol"
+                    components="group:Capstone">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </textparcol>
+            </textcolpar>
+            <buttontextpar
+                jcr:lastModified="{Date}2016-01-14T14:34:52.559+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="group:Capstone">
+                <section jcr:primaryType="nt:unstructured"/>
+            </buttontextpar>
+            <socialtextpar
+                jcr:lastModified="{Date}2016-01-14T14:35:03.177+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="group:Capstone">
+                <section jcr:primaryType="nt:unstructured"/>
+            </socialtextpar>
+            <navigation
+                jcr:lastModified="{Date}2016-01-18T15:59:22.898+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/structure/navigation"
+                absParent="3"/>
+            <carousalcontainer
+                jcr:lastModified="{Date}2016-01-19T16:25:19.891+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="/apps/capstone/components/content/carouselcontainer">
+                <section jcr:primaryType="nt:unstructured"/>
+                <carouselcontainer
+                    jcr:lastModified="{Date}2016-01-19T16:26:02.018+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    components="/apps/capstone/components/content/carousel">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </carouselcontainer>
+            </carousalcontainer>
+        </homepage>
+    </jcr:content>
+    <clientlib-all/>
+    <clientlib-site/>
+    <favicon.ico/>
+</jcr:root>

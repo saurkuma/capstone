@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Capstone Site">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <box.png/>
+    <blue.png/>
+    <bg.jpg/>
+    <boxs.gif/>
+    <button.png/>
+    <bullet_x.png/>
+    <en.jpg/>
+    <box-page.jpg/>
+    <bg-sub.jpg/>
+    <blacklogo.png/>
+    <favicon.ico/>
+    <face.png/>
+    <fb.png/>
+    <foot.jpg/>
+    <linkedin.jpg/>
+    <get.png/>
+    <list.jpg/>
+    <listmbox.png/>
+    <logo.png/>
+    <next.png/>
+    <prev.png/>
+    <search.png/>
+    <shadows.jpg/>
+    <sp.gif/>
+    <submit.png/>
+    <twitt.png/>
+    <twitter.png/>
+    <white.png/>
+    <w-shadows.png/>
+    <en/>
+    <Adobe-XumaK-CQ5.png/>
+    <tech.png/>
+    <thumbnail.png/>
+</jcr:root>

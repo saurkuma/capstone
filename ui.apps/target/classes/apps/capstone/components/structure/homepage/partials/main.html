@@ -1,0 +1,34 @@
+
+    <div id="konten">
+ 		<div id="konten-top">
+            <div data-sly-resource="logo" data-sly-unwrap></div>
+			<div id="topright">
+                <div data-sly-resource="langselector" data-sly-unwrap></div>
+                <div data-sly-resource="searchbox" data-sly-unwrap></div>
+			</div>
+		</div>
+
+        
+        <nav data-sly-resource="navigation" data-sly-unwrap></nav>
+
+			 <div data-sly-resource="${ @path='carousalcontainer', resourceType='foundation/components/parsys'}" data-sly-unwrap></div>
+
+             <div id="middlebox">
+             	<div class="mdtext">
+				<div data-sly-resource="${ @path='textcolpar', resourceType='foundation/components/parsys'}" data-sly-unwrap></div>
+                </div>
+                <div class="mdtext">
+                <div data-sly-resource="${ @path='buttontextpar', resourceType='foundation/components/parsys'}" data-sly-unwrap></div>
+                </div>
+                 <div id="mdtext-contact">
+				<div data-sly-resource="${ @path='socialtextpar', resourceType='foundation/components/parsys'}" data-sly-unwrap></div>
+                </div>
+            </div>
+	</div>
+
+		<div id="footers">
+        	<div id="footers-box2">
+                <div data-sly-resource="copyright" data-sly-unwrap></div>
+                <div data-sly-resource="footerimage" data-sly-unwrap></div>
+			</div>
+		</div>

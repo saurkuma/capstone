@@ -1,0 +1,603 @@
+@charset "utf-8";
+:focus {
+outline:0
+}
+#body1{
+	margin:0px;
+	padding:0px;
+	background:url(/content/dam/capstone/bg.jpg) repeat-x #ededed;
+	font-family:"Arial", Helvetica, sans-serif;
+}
+#body2{
+	background:url(/content/dam/capstone/bg-sub.jpg) repeat-x #dbdbdb;
+	margin:0px;
+	padding:0px;
+	font-family:"Arial", Helvetica, sans-serif;
+}
+input{
+	outline: 0;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+	color:#5d5c5c;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0px;
+	margin:0px;
+}
+h6{
+	font-size:10px;
+	color:#bebdbd;
+}
+h4{
+	font-family:"Arial";
+	font-size:13px;
+	color:#908f8f;
+}
+h2{
+	font-family:"Segoe UI";
+	padding:0px;
+	margin:0px;
+	font-size:27px;
+	color:#454545;
+}
+#konten{
+	width:976px;
+	margin:-10px auto 60px auto;
+	position:relative;
+}
+#konten-top{
+	background:url(/content/dam/capstone/white.png) no-repeat;
+	height:114px;
+}
+#logo{
+	width:230px;
+	height:44px;
+	padding:70px 0 0 0;
+	float:left;
+}
+#topright{
+	font-size:0.71em;
+	color:#b4b3b3;
+	width:353px;
+	height:29px;
+	padding:85px 0 0 0;
+	float:right;
+}
+#topright-right{
+	width:197px;
+	float:right;
+	height:20px;
+}
+.search{
+	background:url(/content/dam/capstone/search.png) no-repeat;
+	border:none;
+	width:193px;
+	height:28px;
+	text-indent:10px;
+	font-size:11px;
+	color:#cac8c8;
+	text-transform:lowercase;
+	border:none;
+}
+#topright-left{
+	width:149px;
+	float:left;
+	height:20px;
+	padding-top:10px;
+	text-align:center;
+	text-indent:5px
+}
+.flag1{
+	height:10px;
+	float:right;
+}
+.flag2{
+	height:10px;
+	float:right;
+}
+/*....................................................menu...*/
+#menu{	
+	height:80px;
+	margin:10px 0px 0px 0px;
+}
+.submenu{
+	padding:25px 0 0 22px;
+	font-size:14px;
+	width:175px;
+	height:50px;
+	background:url(/content/dam/capstone/list.jpg) no-repeat right;
+	text-align:left;
+	color:#5d5c5c;
+	float:left;
+}
+.submenu-home{
+	padding:25px 0 0 10px;
+	font-size:14px;
+	width:175px;
+	height:50px;
+	background:url(/content/dam/capstone/list.jpg) no-repeat right;
+	text-align:left;
+	color:#5d5c5c;
+	float:left;
+}
+.submenu-contact{
+	padding:25px 0 0 22px;
+	font-size:14px;
+	width:175px;
+	height:50px;
+	text-align:left;
+	color:#5d5c5c;
+	float:left;
+}
+.submenu a:hover,.submenu-contact a:hover,.submenu-home a:hover{
+	color:#9a1c1f;
+}
+/* news */
+#newsItem{
+    padding-left:40px;
+    width:570px;
+    color:#7E7E7E;
+    font-size:12px;
+    text-align:justify;
+}
+#newsItem img{
+    float: left;
+    padding-right: 10px;
+}
+a#newsTitle{
+    color:#525182;
+    padding-bottom:0;
+    padding-right:0;
+    padding-top:5px;
+    width:450px;
+    position: center;
+}
+/*....................................................box...*/
+#box{
+	height:339px;
+}
+#box2{
+	height:209px;
+}
+#box-frame{
+	height:600px;
+	width:auto;
+}
+#box-frame-right{
+	float:right;
+	width:337px;
+	height:auto;
+}
+#box-frame-right-content{
+	width:327px;
+	background:url(/content/dam/capstone/blue.png) no-repeat right;
+	height:40px;
+}
+#box-frame-right-content-text{
+	padding:12px 0 0 70px;
+	height:40px;
+	color:#FFF;
+	font-size:14px;
+}
+#box-frame-right-content-class{
+	background:url(/content/dam/capstone/w-shadows.png) no-repeat top right;
+	width:307px;
+	height:52px;
+	padding:0 0 0 30px;
+}
+#box-frame-right-content-class-close{
+	background:url(/content/dam/capstone/w-shadows.png) no-repeat top right;
+	width:307px;
+	height:32px;
+	padding:0 0 0 30px;
+}
+.box-frame-right-content-class-text{
+	padding:22px 0 0 40px;
+	height:30px;
+	color:#444;
+	font-size:13px;
+}
+.box-frame-right-content-class-text a:hover{
+	color:#999;
+}
+#box-frame-left{
+	float:left;
+	width:630px;
+	height:auto;
+}
+#box-services{
+	width:620px;
+	height:60px;
+	font-size:27px;
+	color:#525182;
+	float:left;
+	padding-left:10px;
+}
+#box-services2{
+	width:620px;
+	height:500px;
+	font-size:27px;
+	color:#CCC;
+	float:left;
+	font-size:14px;
+	padding:20px 0 0 10px;
+}
+#submitbox{
+	height:36px;
+	float:right;
+	widows:inherit;
+	padding:12px 2px 0 0;
+}
+.submits{
+	background:url(/content/dam/capstone/submit.png);
+	display:block;
+	height:35px;
+	width:124px;
+	text-indent:-9999px;
+}
+.submits:hover{
+	background:url(/content/dam/capstone/submit.png)0 -34px;
+}
+.box-input5{
+	width:300px;
+	float:left;
+	padding:0 0 30px 0;
+}
+.box-input{
+	width:300px;
+	float:left;
+	padding:0 0 30px 10px;
+}
+.box-serv3{
+	width:610px;
+	height:100px;
+	float:left;
+	font-size:11px;
+	color:#444;
+}
+.box-name{
+	color:#606060;
+	width:300px;
+	height:25px;
+	float:left;
+}
+.box-name2{
+	color:#606060;
+	width:300px;
+	height:25px;
+	float:left;
+	padding-left:10px;
+}
+.textinput{
+	width:300px;
+	height:25px;
+	float:left;
+	font-size:11px;
+	color:#444;
+}
+#box-services-content{
+	height:inherit;
+	font-size:12px;
+	color:#7e7e7e;
+	float:left;
+	width:620px;
+	padding-left:10px;
+	text-align:justify;
+}
+#bxc-content{
+	width:570px;
+	height:90px;
+	padding:20px 0 0 40px;
+}
+.tumb{
+	width:86px;
+	height:86px;
+	float:left;
+}
+.titles h4{
+	float:left;
+	width:450px;
+	height:20px;
+	padding:5px 0 0 20px;
+}
+.titles a{
+	float:left;
+	width:450px;
+	height:20px;
+	padding:5px 0 0 20px;
+	color:#525182;
+}
+.titles a:hover{
+	color:#9a1c1f;
+}
+.texts{
+	float:left;
+	width:450px;
+	padding-left:20px;
+}
+#box-frame-left-follow{
+	height:20px;
+	width:90px;
+	float:left;
+	color:#7e7e7e;
+	font-size:14px;
+	padding-left:460px;
+}
+.box-frame-left-link{
+	height:20px;
+	width:20px;
+	float:left;
+}
+#boxs{
+	width:976px;
+	height:339px;
+	background:url(/content/dam/capstone/box.png) repeat-x;
+}
+.boximg{
+	float:left;
+	width:400px;
+	height:300px;
+	padding:30px 0 0 80px;
+}
+.boxright{
+	float:right;
+	width:450px;
+	height:300px;
+	padding:80px 0 30px 0px;
+}
+.boxright-tle{
+	width:auto;
+	height:50px;
+}
+.boxright-content{
+	height:280px;
+	width:350px;
+	font-size:12px;
+	color:#999;
+	text-align:justify;
+}
+.boxright-content-get{
+	height:80px;
+	width:350px;
+	float:left;
+	padding:10px 0 0 0;
+}
+
+/*....................................................Marquee...*/
+.marquee-slide-title{
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size: 24pt;
+	color: #444;
+	
+}
+
+.marquee-slide-sub-title{
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #999;
+}	
+/*....................................................mbox...*/
+#middlebox{
+	height:255px;
+	background:url(/content/dam/capstone/shadows.jpg) center top no-repeat;
+}
+.mdtext{
+	height:255px;
+	width:328px;
+	background:url(/content/dam/capstone/listmbox.png) right no-repeat;
+	float:left;
+}
+#mdtext-contact{
+	height:255px;
+	width:318px;
+	float:left;
+}
+.mdimage{
+	width:55px;
+	float:left;
+	padding-top:4px;
+}
+.mdtitle{
+	font-size:22px;
+	width:280px;
+	letter-spacing:-1px;
+	float:left;
+	padding:30px 20px 0 20px;
+	font-family:"Segoe UI";
+}
+.mdtitle a{
+	color:#363636;
+}
+.mdtitle a:hover{
+	color:#9a1c1f;
+}
+.mdtitle p{
+	margin: 0px 0px 0px 0px;
+}
+.mdisi{
+	width:280px;
+	height:170px;
+	float:left;
+	padding:0 20px 0 20px;
+	font-size:12px;
+	color:#444444;
+	text-align:justify;
+}
+.mdisi-image{
+	background:url(/content/dam/capstone/boxs.gif) left no-repeat;
+	width:12px;
+	height:12px;
+	float:left;
+	padding:2px 0 0 10px;
+}
+#mdisi-small{
+	padding:20px 0 0 40px;
+}
+.mdisi-button{
+	float:right;
+	height:30px;
+	width:auto;
+	padding-top:20px;
+}
+.mdisi-imagec{
+	background:url(/content/dam/capstone/boxs.gif) left no-repeat;
+	width:12px;
+	height:12px;
+	float:left;
+	padding:2px 0 0 10px;
+}
+#mdisi-smallc{
+	padding:20px 0 0 15px;
+}
+.twitter{
+	z-index:25;
+	padding-left:5px;
+	position:absolute;
+	margin-top:-5px;
+}
+.fb{
+	z-index:20;
+	padding-left:35px;
+	position:absolute;
+	margin-top:-5px;
+}
+.learn{
+	background:url(/content/dam/capstone/button.png);
+	display:block;
+	height:28px;
+	text-indent:-9999px;
+	width:96px;
+}
+.learn:hover{
+	background:url(/content/dam/capstone/button.png)0 -28px;
+}
+#get{
+	background:url(/content/dam/capstone/get.png);
+	display:block;
+	height:28px;
+	text-indent:-9999px;
+	width:96px;
+}
+#get:hover{
+	background:url(/content/dam/capstone/get.png)0 -28px;
+}
+/*....................................................footer...*/
+#footers2{
+	background:url(/content/dam/capstone/foot.jpg) repeat-x;
+	clear:both;
+}
+#footers{
+	background:url(/content/dam/capstone/foot.jpg) repeat-x bottom;
+	clear:both;
+}
+#footers-box2{
+	font-size:10px;
+	height:68px;
+	width:976px;
+	margin:-52px auto;
+}
+#footer-copy2{
+	width:750px;
+	float:left;
+	margin:20px 10px 0 0;
+}
+#footer-logo2{
+	margin:20px 10px 0 0;
+	float:right;
+}
+#footers-box{
+	font-size:10px;
+	height:18px;
+	width:976px;
+	margin:0 auto;
+	padding:80px 0 30px 0;
+}
+#footer-copy{
+	width:500px;
+	float:left;
+}
+#footer-logo{
+	margin:-5px 10px 0 0;
+	float:right;
+}
+/* Easy Slider */
+
+	#slider{}	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:976px;
+		height:339px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-34px;
+		top:350px;
+		}	
+	#nextBtn{ 
+		left:990px;
+		}														
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		width:30px;
+		height:37px;
+		background:url(/content/dam/capstone/prev.png) no-repeat 0 0;
+		}	
+	#nextBtn a{ 
+		background:url(/content/dam/capstone/next.png) no-repeat 0 0;
+		}												
+
+/* // Easy Slider */
+/*.............................subpage...................*/
+#box-sub{
+	height:190px;
+	background:url(/content/dam/capstone/box-page.jpg) repeat-x #FFF;
+	width:auto;
+}
+#box-sub-right{
+	float:right;
+	width:285px;
+	height:auto;
+	padding:10px 30px 0 0;
+}
+#box-sub-left{
+	float:left;
+	width:451px;
+	font-size:17px;
+	color:#444343;
+	padding:35px 0 0 210px;
+}
+/*.............................contact...................*/
+#contact{
+	height:146px;
+	width:195px;
+	float:left;
+	padding-right:10px;
+}
+#foto{
+	height:191px;
+	width:295px;
+	float:left;
+	padding:0 10px 11px 0;
+}
+#foto2{
+	height:131px;
+	width:200px;
+	float:left;
+	padding:0 0 11px 2px;
+}
