@@ -1,6 +1,9 @@
 com\adobe\aemtraining\capstone\core\servlets\SimpleServlet.class
 com\adobe\aemtraining\capstone\core\schedulers\SimpleScheduledTask.class
-com\adobe\aemtraining\capstone\core\package-info.class
-com\adobe\aemtraining\capstone\core\listeners\SimpleResourceListener.class
+com\adobe\aemtraining\capstone\core\Activator.class
+com\adobe\aemtraining\capstone\core\Hi.class
 com\adobe\aemtraining\capstone\core\filters\LoggingFilter.class
 com\adobe\aemtraining\capstone\core\models\HelloWorldModel.class
+com\adobe\aemtraining\capstone\core\Maili.class
+com\adobe\aemtraining\capstone\core\package-info.class
+com\adobe\aemtraining\capstone\core\listeners\SimpleResourceListener.class

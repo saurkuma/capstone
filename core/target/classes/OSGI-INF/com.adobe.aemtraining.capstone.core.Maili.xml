@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="com.adobe.aemtraining.capstone.core.Maili">
+        <implementation class="com.adobe.aemtraining.capstone.core.Maili"/>
+        <service servicefactory="false">
+            <provide interface="com.day.cq.workflow.exec.WorkflowProcess"/>
+        </service>
+        <property name="service.description" value="Send Maile"/>
+        <property name="process.label" value="Send Maile"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.adobe.aemtraining.capstone.core.Maili"/>
+        <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory"/>
+        <reference name="messageGatewayService" interface="com.day.cq.mailer.MessageGatewayService" cardinality="1..1" policy="static" bind="bindMessageGatewayService" unbind="unbindMessageGatewayService"/>
+        <reference name="resolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResolverFactory" unbind="unbindResolverFactory"/>
+    </scr:component>
+</components>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Capstone - UI apps</comment>
+<entry key="createdBy">saurkuma</entry>
+<entry key="name">capstone.ui.apps</entry>
+<entry key="created">2016-01-27T18:38:56.349+0530</entry>
+<entry key="groupId">com.adobe.aemtraining</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aemtraining</entry>
+<entry key="description">UI apps package for Capstone</entry>
+<entry key="artifactId">capstone.ui.apps</entry>
+<entry key="path">/etc/packages/com.adobe.aemtraining/capstone.ui.apps.zip</entry>
+</properties>

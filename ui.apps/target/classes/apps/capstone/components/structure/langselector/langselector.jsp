@@ -1,9 +1,5 @@
 <%@include file="/libs/foundation/global.jsp" %>
-<%@page import="com.test.bundle.Hello" %>
 
-
-<% Hello he=new Hello();%>
-<%=he.getBundleMsg()+"aa" %>
 
 <div id="topright-left">Select language
 
